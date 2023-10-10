@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-height: calc(100vh - 6vh - 8vh);
+}
+footer{
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 9vh;
+    font-family: 'Zen Dots', cursive;
+    font-size: 3vh;
+}
+.box1{
+    height: 8vh;
+    background-color:var(--main-bg-color);
+    display: inline-block;
+    display: flex;
+}
+.box1 ul{
+    display: flex;
+    justify-content: center;
+}
+.box1 ul li{
+    display: inline-block;
+    margin: 0vh 2vw;
+    margin-top: 3vh;
+}
+.box1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5vh;
+}
+.box1{
+    display: flex;
+}
+.logo img{
+    width: 6vw;
+}
+.logo{
+    margin-left: 20px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    /* height: 10vh; */
+    
+}
+.box2 input{
+    width: 35vw;
+    height: 4vh;
+    margin: 0px 20px 0px 50px;
+    border-radius: 1vh;
+    font-size: 15px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.btn{
+    padding: 1vh 1vw;
+    background-color: #538ce8;
+    color: white;
+    border: 2px solid white;
+    border-radius: 1vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+.slider{
+    overflow: hidden;
+    height: 60vh;
+    width: 100vw;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}    
+.card{
+    max-width: 92vw;
+    margin: auto;
+    overflow: hidden;
+}
+.card-item{
+    width: 20vh;
+    margin-left: 5vh;
+    display: inline-block;
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0 3vh;
+    overflow: hidden;
+}
+.card h2{
+    font-family: 'Pacifico', cursive;
+    margin: 25px;
+}
+.text-center{
+    text-align: center;
+}
